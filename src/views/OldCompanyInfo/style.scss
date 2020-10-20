@@ -1,0 +1,414 @@
+.companyInfo{
+  // width: 2040px;
+  // height: 92vh;
+  box-sizing: border-box;
+  background: url(../../assets/bg.png) no-repeat;
+  background-size: 100% 100%;
+  // background: red;
+  // 顶部导航
+  .mainheader{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 40px;
+    z-index: 1000;
+    position: relative;
+    .back{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      top: 9px;
+      left: 0px;
+      cursor: pointer;
+      img{
+      width: 100%;
+      height: 100%;
+      }
+    }
+    // 个人设置
+    .mainheader_setup{
+      height: 25px;
+      color: #ECECED;
+      font-size: 16px;
+      position: absolute;
+      top: 9px;
+      right: 0px;
+      cursor: pointer;
+      img{
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+      }
+    }
+    // 标题
+    .mainheader_title{
+      width: 30%;
+      height: 100%;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+      letter-spacing: 2px;
+      margin: 0 auto;
+      background: url(../../assets/topFrame.png) no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  // .mainheader{
+  //   width: 100%;
+  //   height: 40px;
+  //   z-index: 1000;
+  //   position: relative;
+  //   // margin-bottom: 20px;
+  //   .back{
+  //     width: 20px;
+  //     height: 20px;
+  //     position: absolute;
+  //     top: -30px;
+  //     left: 0px;
+  //     cursor: pointer;
+  //     img{
+  //       width: 100%;
+  //       height: 100%;
+  //     }
+  //   }
+  //   // 个人设置
+  //   .mainheader_setup{
+  //     height: 25px;
+  //     color: #ECECED;
+  //     font-size: 16px;
+  //     position: absolute;
+  //     top: 9px;
+  //     right: 50px;
+  //     cursor: pointer;
+  //     img{
+  //       width: 16px;
+  //       height: 16px;
+  //       vertical-align: middle;
+  //     }
+  //   }
+  //   // 标题
+  //   .mainheader_title{
+  //     width: 30%;
+  //     height: 100%;
+  //     color: #fff;
+  //     font-size: 20px;
+  //     text-align: center;
+  //     line-height: 40px;
+  //     letter-spacing: 2px;
+  //     margin: 0 auto;
+  //     background: url(../../assets/topFrame.png) no-repeat;
+  //     background-size: 100% 100%;
+  //   }
+  // }
+
+  // 模块 上
+  .companyInfo_top{
+    display: flex;
+    justify-content: space-between;
+    // width: 100%;
+    height: 100%;
+    margin-top: -18px;
+    .companyInfo_top_left{
+      // width: 34%;
+      // width: 706px;
+      // height: 80vh;
+      box-sizing: border-box;
+      background: rgba(0,72,79,0.45);
+      border: 1px solid #074258;
+      .companyleft_top{
+        display: flex;
+        justify-content: space-between;
+        // width: 100%;
+        // height: 36vh;
+        // margin-bottom: 15px;
+        .homeleft_creditrating{
+          width: 45%;
+          height: 100%;
+          background: rgba(0,72,79,0.45);
+          border: 1px solid #074258;
+          .homeleft_titleBox{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            // height: 30px;
+            // line-height: 30px;
+            .homeleft_subtitleFrame{
+              // width: 60%;
+              // width: 171.56px;
+              // height: 100%;
+              color: #F9FBFB;
+              // font-size: 16px;
+              padding: 0 8px;
+              margin-top: -1px;
+              margin-left: -1px;
+              background: url(../../assets/subtitleFrame.png) no-repeat;
+              background-size: 100% 100%;
+            }
+            .top5{
+              width: 33%;
+              height: 100%;
+              color: #758588;
+              font-size: 12px;
+              text-align: right;
+              padding: 0 5px;
+            }
+          }
+          .companyTitleAndCentent{
+            color: #B1B9BE;
+            h3{
+              // font-size: 13px;
+              font-weight: 500;
+              margin-top: 8px;
+              // padding: 2px 5px;
+              letter-spacing: 1px;
+              background: rgba(0,85,95,0.5);
+            }
+            p{
+              // height: 85px;
+              // font-size: 10px;
+              letter-spacing: 1.2px;
+              margin-top: 8px;
+              // padding: 0 8px;
+              overflow: hidden;
+              overflow-y: auto;
+            }
+          }
+        }
+        .homeleft_proportion{
+          width: 50%;
+          height: 100%;
+          background: rgba(0,72,79,0.45);
+          border: 1px solid #074258;
+        }
+      }
+      .companyleft_bottom{
+        // width: 99.5%;
+        // height: 40.5vh;
+        background: rgba(0,72,79,0.45);
+        border: 1px solid #074258;
+        .homeleft_bottom_title{
+          color: #F9FBFB;
+          font-size: 16px;
+          line-height: 30px;
+          letter-spacing: 2px;
+          // padding: 0 5px;
+          border-left: 2px solid #05B8C3;
+          background: linear-gradient(to right,#012C32,#024C55,#015E6A,#00717C);
+        }
+        .companyleft_bottom_contentBox{
+          width: 100%;
+          // height: 200px;
+          ul{
+            width: 100%;
+            // height: 200px;
+            // overflow-x: auto;
+            overflow-y: auto;
+            li{
+              width: 100%;
+              display: -webkit-box;
+              -webkit-flex-wrap:nowrap;
+              flex-wrap:nowrap;
+              -webkit-justify-content:space-between;
+              justify-content:space-between;
+              text-align: left;
+              padding: 7px 20px;
+              box-sizing: border-box;
+              // padding: 7px 8px;
+              .lidiv{
+                display: flex;
+                justify-content: space-between;
+                width: 50%;
+              }
+              div{
+                // margin-right: 1px;
+                width: 30%;
+                color: #B4BEC3;
+                font-size: 10px;
+              }
+              .colorcenter{
+                width: 68%;
+                color: #0098A9;
+              }
+            }
+          }
+         
+        }
+      }
+
+      // 行为标签
+      .behavior{
+        // height:40vh;
+        .homeleft_titleBox{
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          .homeleft_subtitleFrame{
+            // width: 60%;
+            // width: 171.56px;
+            // height: 100%;
+            // font-size: 16px;
+            color: #F9FBFB;
+            padding: 0 8px;
+            margin-top: -1px;
+            margin-left: -1px;
+            background: url(../../assets/subtitleFrame.png) no-repeat;
+            background-size: 100% 100%;
+          }
+          .top5{
+            width: 33%;
+            height: 100%;
+            color: #758588;
+            font-size: 12px;
+            text-align: right;
+            padding: 0 5px;
+          }
+        }
+      }
+
+      // 右侧
+      .homeleft_top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        // height: 36vh;
+        margin-bottom: 20px;
+        background: rgba(0,72,79,0.45);
+        .homeleft_creditrating{
+          width: 100%;
+          height: 100%;
+          border: 1px solid #074258;
+          // overflow: hidden;
+          // background: #ccc;
+          .homeleft_titleBox{
+            display: flex;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            .homeleft_subtitleFrame{
+              // width: 35%;
+              width: 171.56px;
+              height: 100%;
+              color: #F9FBFB;
+              font-size: 16px;
+              padding: 0 8px;
+              margin-top: -1px;
+              margin-left: -1px;
+              background: url(../../assets/subtitleFrame.png) no-repeat;
+              background-size: 100% 100%;
+            }
+            .top5{
+              width: 65%;
+              height: 100%;
+              color: #00B6C8;
+              font-size: 12px;
+              text-align: right;
+              padding: 0 5px;
+            }
+          }
+         
+        }
+        .homeleft_proportion{
+          width: 50%;
+          height: 100%;
+          background: rgba(0,72,79,0.45);
+          border: 1px solid #074258;
+          // background: #ccc;
+        }
+      }
+    }
+
+    .xinyongduibibj{
+      color: #F9FBFB;
+      margin-top: -1px;
+      margin-left: -1px;
+      background: url(../../assets/subtitleFrame.png) no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+  // 下
+  // .companyInfo_bottom{
+  //   display: flex;
+  //   justify-content: space-between;
+  //   width: 100%;
+  //   height: 255px;
+  //   margin-top:25px;
+  //   .companyInfo_top_left{
+  //     // width: 706px;
+  //     height: 100%;
+  //     box-sizing: border-box;
+  //     background: rgba(0,72,79,0.45);
+  //     border: 1px solid #074258;
+  //   }
+  // }
+
+  // 司法及行政处罚信息 股东信息
+  .homeleft_bottom{
+    width: 99.5%;
+    height: 40.5vh;
+    background: rgba(0,72,79,0.45);
+    border: 1px solid #074258;
+    .homeleft_bottom_title{
+      color: #F9FBFB;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 2px;
+      // padding: 0 5px;
+      border-left: 2px solid #05B8C3;
+      background: linear-gradient(to right,#012C32,#024C55,#015E6A,#00717C);
+    }
+    .companyleft_bottom_contentBox{
+      width: 100%;
+      // height:223px;
+      ul{
+        width: 100%;
+        height: 100%;
+        // overflow-x: auto;
+        overflow-y: auto;
+        li{
+          width: 100%;
+          display: -webkit-box;
+          -webkit-flex-wrap:nowrap;
+          flex-wrap:nowrap;
+          -webkit-justify-content:space-between;
+          justify-content:space-between;
+          text-align: left;
+          padding: 7px 8px;
+          box-sizing: border-box;
+          div{
+            // margin-right: 1px;
+            // width: 30%;
+            color: #0098A9;
+            font-size: 10px;
+          }
+          .colorcenter{
+            width: 47%;
+          }
+        }
+        li:first-child div{
+          color: #B4BEC3;
+        }
+      }
+     
+    }
+  }
+
+
+  /* 设置滚动条的样式 */
+  ::-webkit-scrollbar{
+    width: 3px;
+    height: 5px;
+    background: rgba(0,72,79,0.45);
+  }
+  /* 滚动槽 */
+  ::-webkit-scrollbar-track{
+    border-radius: 10px;
+  }
+  /* 滚动条滑块 */
+  ::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #0E848D;
+  }
+}

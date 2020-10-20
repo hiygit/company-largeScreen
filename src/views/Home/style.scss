@@ -1,0 +1,85 @@
+.home{
+  // width: 2040px;
+  // height: 98.2vh;
+  // height: 760px;
+  background: red;
+  position: relative;
+    // height: 93.6vh;
+    // height: 100%;
+    // 顶部导航
+  
+  // 正文
+  // .home_main{
+    // width: 100%;
+    // height: 100%;
+    // padding: 0px 50px 32px;
+    // box-sizing: border-box;
+    // background: #ccc;
+    // overflow: hidden;
+    // position: absolute;
+    // top: 0px;
+    // left: 32px;
+
+    .mainheader{
+      // width: 2040px;
+      height: 40px;
+      margin-bottom: 23px;
+      position: absolute;
+      top: 0px;
+      // z-index: 1000;
+      // position: relative;
+      .back{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 9px;
+        left: 0px;
+        cursor: pointer;
+        img{
+        width: 100%;
+        height: 100%;
+        }
+      }
+      // 个人设置
+      .mainheader_setup{
+        height: 25px;
+        color: #FEFEFE;
+        font-size: 16px;
+        position: absolute;
+        top: 9px;
+        right: 36px;
+        z-index: 1;
+        cursor: pointer;
+        img{
+          width: 16px;
+          height: 16px;
+          vertical-align: middle;
+        }
+      }
+      // 标题
+      .mainheader_title{
+        // width: 30%;
+        // width: 508px;
+        // height: 100%;
+        color: #fff;
+        // font-size: 20px;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 2px;
+        margin: 0 auto;
+        background: url(../../assets/topFrame.png) no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+    .threeBox{
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+    // 地图点击标注样式
+    .amap-ui-smp-ifwn-info-title{
+      display: none;
+    }
+  // }
+}

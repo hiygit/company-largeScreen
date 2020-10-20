@@ -1,0 +1,193 @@
+.NewHome{
+  // width: 1920px;
+  // height: 1080px;
+  box-sizing: border-box;
+  background: url(../../assets/newHomebj.png) no-repeat;
+  background-size: 100% 100%;
+  .NewHome-header{
+    // width: 1869px;
+    // height: 99px;
+    background: url(../../assets/headerImg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    .dateTimeDays{
+      position: absolute;
+      bottom: 0;
+      color: #01F5F7;
+      span{
+        color: #A6B709;
+      }
+    }
+  }
+  .newHome-content{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    // 左侧
+    .newHome-content-left-top{
+      .newHome-content-left-top-title{
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .newHome-content-left-top-content{
+        box-sizing: border-box;
+        background: url(../../assets/xinyongpaihangbj.png) no-repeat;
+        background-size: 100% 100%;
+        .newHome-content-left-top-content-list{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          div{
+            display: flex;
+            align-items: center;
+            color: #fff;
+            opacity: .8;
+            p{
+              cursor: pointer;
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;
+            }
+          }
+        }
+        .newHome-content-left-top-content-list:last-child{
+          margin-bottom: 0;
+        }
+      }
+      .newHome-content-left-top-daycontent{
+        box-sizing: border-box;
+        background: url(../../assets/dayborderbj.png) no-repeat;
+        background-size: 100% 100%;
+        .newHome-content-left-top-searchbj{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          div{
+            color: #9FCEFF;;
+            text-align: center;
+            img{
+              display: block;
+              margin: 0 auto;
+              margin-top: 5px;
+            }
+            p{
+              margin-top: 3px;
+            }
+          }
+          .search{
+            display: flex;
+            text-align: left;
+            background: #ccc;
+            border: 1px solid #00FBFF;;
+            background: #031B44;
+            opacity: 0.65;
+            input{
+              color: #049AA9;
+              padding: 0 10px;
+            }
+            img{
+              margin-top: 3px;
+              margin-right: 15px;
+            }
+          }
+        }
+        // 选项卡
+        .newHome-content-left-top-daycontent-tabBox{
+          position: relative;
+          ol{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li{
+              color: #9FCEFF;
+              font-weight: 600;
+              text-align: center;
+              line-height: 25px;
+              background: url(../../assets/tabBtnbj.png) no-repeat;
+              background-size: 100% 100%;
+              z-index: 999;
+            }
+            .liActive{
+              background: none;
+              color: #EB9E46;
+            }
+          }
+          ul{
+            li{
+              padding: 65px 15px 30px;
+              box-sizing: border-box;
+              div{
+                overflow-y: auto;
+                overflow-x: hidden;
+              }
+              p{
+                color: #fff;
+                opacity: 0.8;
+                margin-bottom: 5px;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+              }
+              p:last-child{
+                margin-bottom: 0;
+              }
+            }
+            #tabBtnConten{
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            #tabcontent1{
+              background: url(../../assets/tongzhiBorder.png) no-repeat;
+              background-size: 100% 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            #tabcontent2{
+              background: url(../../assets/hangyeBorder.png) no-repeat;
+              background-size: 100% 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            #tabcontent3{
+              background: url(../../assets/falvBorder.png) no-repeat;
+              background-size: 100% 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              
+            }
+          }
+        }
+
+      }
+    }
+    // 右侧
+    .newHome-content-right-mapbox{
+      background: url(../../assets/mapboxbj.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .newHome-content-right-mapBottom{
+      display: flex;
+      justify-content: space-between;
+      .newHome-content-right-mapBottom-barGraphBj{
+        background: url(../../assets/gardenBorder.png) no-repeat;
+        background-size: 100% 100%;
+      }
+      .newHome-content-right-mapBottom-zongxinyongBj{
+        background: url(../../assets/genderbg.png) no-repeat;
+        background-size: 100% 100%;
+      }
+      .newHome-content-right-mapBottom-zhanbibj{
+        background: url(../../assets/zhanbikuang.png) no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+  
+}

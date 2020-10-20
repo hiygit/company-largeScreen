@@ -1,0 +1,134 @@
+.homeleft{
+  // width: 625px;
+  height: 98.2vh;
+  box-sizing: border-box;
+  padding-top: 65px;
+  padding-left: 36px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../../../assets/leftjianbian.png) no-repeat;
+  background-size: 100% 100%;
+  // background: #f0f0ff;
+  .homeleft_top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 27vh;
+    margin-bottom: 20px;
+    .homeleft_creditrating{
+      width: 45%;
+      height: 100%;
+      // background: rgba(0,72,79,0.45);
+      background: linear-gradient(to right,#02373b,#00939d);
+      opacity: 0.78;
+      border: 1px solid #074258;
+      // overflow: hidden;
+      // background: #ccc;
+      .homeleft_titleBox{
+        display: flex;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        .homeleft_subtitleFrame{
+          width: 60%;
+          height: 100%;
+          color: #F9FBFB;
+          font-size: 16px;
+          padding: 0 8px;
+          margin-top: -1px;
+          margin-left: -1px;
+          background: url(../../../assets/subtitleFrame.png) no-repeat;
+          background-size: 100% 100%;
+        }
+        .top5{
+          width: 33%;
+          height: 100%;
+          color: #00B6C8;
+          font-size: 10px;
+          text-align: right;
+          margin-top: -5px;
+          padding: 0 5px;
+        }
+      }
+      .homeleft_top_text{
+        height: 82%;
+        overflow: hidden;
+        color: #08B3C2;
+        font-size: 10px;
+        cursor: pointer;
+        // line-height: 20px;
+        padding: 3px 8px;
+        p{
+          // height: 28px;
+          height: 17px;
+          padding: 5px 0;
+          letter-spacing: 0.5px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        p:first-child{
+          color: #C00303;
+
+        }
+        p:nth-child(2){
+          color: #CC9D08;
+        }
+        p:nth-child(3){
+          color: #2A9303;
+        }
+        span{
+          margin-right: 3px;
+        }
+      }
+    }
+    .homeleft_proportion{
+      width: 50%;
+      height: 100%;
+      // background: rgba(0,72,79,0.45);
+      background: linear-gradient(to right,#02373b,#00939d);
+      opacity: 0.78;
+      border: 1px solid #074258;
+      // background: #ccc;
+    }
+  }
+  .homeleft_bottom{
+    width: 99.5%;
+    height: 38vh;
+    background: linear-gradient(to right,#02373b,#00939d);
+    opacity: 0.78;
+    // background: rgba(0,72,79,0.45);
+    border: 1px solid #074258;
+    .homeleft_bottom_title{
+      color: #F9FBFB;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 2px;
+      padding: 0 5px;
+      margin-top: -1px;
+      margin-left: -1px;
+      border-left: 2px solid #05B8C3 !important;
+      border: 1px solid #56D2D5;
+      background: linear-gradient(to right,#02373b,#00939d);
+      opacity: 0.78;
+      // background: linear-gradient(to right,#012C32,#024C55,#015E6A,#00717C);
+    }
+  }
+
+  /* 设置滚动条的样式 */
+  ::-webkit-scrollbar{
+    width: 3px;
+    height: 5px;
+    background: rgba(0,72,79,0.45);
+  }
+  /* 滚动槽 */
+  ::-webkit-scrollbar-track{
+    border-radius: 10px;
+  }
+  /* 滚动条滑块 */
+  ::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #0E848D;
+  }
+}
